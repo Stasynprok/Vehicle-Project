@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7420480581798522924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7420480581798522927}
+  - component: {fileID: 7420480581798522926}
+  m_Layer: 0
+  m_Name: wheel_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7420480581798522927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7420480581798522924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.725, y: 0.83, z: 1.706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7420480581798522926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7420480581798522924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc34d46863b12441be65fe0b0cadeba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheel_prefab: {fileID: 1077176337740757990, guid: 38519e8d9ad3012429fa537f8bf7910a, type: 3}
+  parent_wheel_prefab: {fileID: 7420480581798522924}
+  wheelFrontLeft: 1
+  wheelFrontRight: 0
+  wheelRearLeft: 0
+  wheelRearRight: 0
+  restLength: 0.6
+  springTravel: 0.25
+  springStiffness: 30000
+  dampersStiffness: 5000
+  steerAngle: 0
+  steerTime: 20
+  wheelRadius: 0.33
+  wheelMass: 0
+  speedometer: {fileID: 0}
+  xInput: 0
+  yInput: 0
+  WheelForce: 5
